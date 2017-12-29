@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ImageAdapter"
+        android:layout_width="@dimen/x300"
+        android:layout_height="@dimen/y250"
+        android:src="@drawable/person_sign"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发四分"
+        android:textColor="#fdfbfb"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignBottom="@+id/ImageAdapter"
+        android:layout_toRightOf="@+id/ImageAdapter"
+        android:layout_toEndOf="@+id/ImageAdapter"
+        android:id="@+id/textView2" />
+    <TextView
+        android:id="@+id/NameAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="agesasf"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_toRightOf="@+id/ImageAdapter"
+        android:layout_toEndOf="@+id/ImageAdapter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/lpanda_bottom_gra"
+        android:layout_alignBottom="@+id/ImageAdapter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+    <TextView
+        android:id="@+id/TExtJiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="覆盖办法开始"
+        android:textColor="#fdfbfb"
+        android:layout_above="@+id/textView2"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_playvideo"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

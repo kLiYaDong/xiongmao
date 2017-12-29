@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ImageGun"
+        android:layout_width="@dimen/x300"
+        android:layout_height="@dimen/y200"
+        android:src="@drawable/tab_home_normal"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/Nameser"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="70dp"
+            android:textColor="#fcfbfb"
+            android:text="eafui"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:src="@drawable/play"
+            android:background="@drawable/lpanda_bottom_gra"
+            android:layout_marginTop="70dp"/>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_toRightOf="@+id/ImageGun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/NameGuns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="gsa"/>
+        <TextView
+            android:id="@+id/NameGuns1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="2017-12-18  16:02"/>
+    </LinearLayout>
+</RelativeLayout>
